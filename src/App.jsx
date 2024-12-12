@@ -54,7 +54,7 @@ export function App() {
 
   return (
     <>
-      <Canvas camera={{ position: [-0.25, 0.125, 0.25], near: 0.025 }}>
+      <Canvas camera={{ position: [-0.5, 0.25, 0.5], near: 0.025 }}>
         <Environment files="img/hospital_room_2_1k.hdr" background />
         <group>
           <Model url={Models[model]} />
