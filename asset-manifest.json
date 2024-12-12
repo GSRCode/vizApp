@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vizApp/static/css/main.201df7b9.css",
+    "main.js": "/vizApp/static/js/main.ca325f28.js",
+    "index.html": "/vizApp/index.html",
+    "main.201df7b9.css.map": "/vizApp/static/css/main.201df7b9.css.map",
+    "main.ca325f28.js.map": "/vizApp/static/js/main.ca325f28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.201df7b9.css",
+    "static/js/main.ca325f28.js"
+  ]
+}
