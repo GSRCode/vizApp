@@ -8,7 +8,11 @@ import {
   Html,
 } from '@react-three/drei'
 import { useControls } from 'leva'
-import Models from './models.json'
+// import Models from './models.json'
+Models = {
+  "eyeball": "models/anatomical_eye_ball_s_annot.glb",
+  "skull": "models/skull_annot.glb"
+}
 
 function Model({ url }) {
   const { scene } = useGLTF(url)
@@ -51,7 +55,7 @@ export function App() {
   return (
     <>
       <Canvas camera={{ position: [-0.25, 0.125, 0.25], near: 0.025 }}>
-        <Environment files="/img/hospital_room_2_1k.hdr" background />
+        <Environment files="img/hospital_room_2_1k.hdr" background />
         <group>
           <Model url={Models[model]} />
         </group>
