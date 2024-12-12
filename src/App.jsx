@@ -9,7 +9,7 @@ import {
 } from '@react-three/drei'
 import { useControls } from 'leva'
 // import Models from './models.json'
-Models = {
+const Models = {
   "eyeball": "models/anatomical_eye_ball_s_annot.glb",
   "skull": "models/skull_annot.glb"
 }
