@@ -1,0 +1,49 @@
+{
+    "homepage": "https://gsrcode.github.io/vizApp",
+    "name": "react-three-fiber-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.jsx",
+    "devDependencies": {
+        "@react-three/drei": "^9.120.3",
+        "@react-three/fiber": "^8.17.7",
+        "gh-pages": "^6.2.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-scripts": "^5.0.1",
+        "three": "^0.168.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "overrides": {
+        "body-parser": "1.20.3",
+        "nth-check": ">=2.0.2",
+        "serve-static": "2.1.0",
+        "postcss": ">=8.4.31",
+        "leva": {
+            "@radix-ui/react-portal": "1.0.2"
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "dependencies": {
+        "leva": "^0.9.35"
+    }
+}
